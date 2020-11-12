@@ -1,0 +1,48 @@
+<app-header></app-header>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+  </head>
+  <body>
+    <div class="container">
+      <br />
+      <a [routerLink]="['/order']"
+        ><button type="button" class="btn btn-outline-success right">
+          <i class="fas fa-sync-alt"></i>Order List
+        </button></a
+      >
+
+      <div class="center">
+        <h2>Menu List</h2>
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Name</th>
+              <th scope="col">Price</th>
+              <th scope="col">Status</th>
+              <th scope="col">**</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Pic</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+              <td>
+                <button type="button" class="btn btn-outline-warning">
+                  Edit
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

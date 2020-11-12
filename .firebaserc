@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "graduation-project-food-court": {
+      "hosting": {
+        "Lotus": [
+          "graduation-project-food-court"
+        ]
+      }
+    }
+  }
+}

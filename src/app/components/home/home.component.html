@@ -1,0 +1,24 @@
+<app-header></app-header>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tesco Lotus</title>
+  </head>
+  <body>
+        
+    <form action="" method="post" class="container">
+        <img src="assets/home.jpg" alt="" />
+      <h2>Login</h2>
+      <input name="email" type="text" class="textbox" placeholder="email" required/>
+      <input name="password" type="password" class="textbox" placeholder="password" required/>
+      <input type="submit" class="btn-submit" value="Login"/>
+      <br>
+      <a [routerLink]="['/signup']" class="text-muted">Sign up</a>
+      
+      
+    </form>
+  </body>
+</html>

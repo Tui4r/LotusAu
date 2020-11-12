@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="front front1">
+                <div class="content">
+                    <div class="icon"><img src="assets/menu.png" alt="" aria-hidden="true" height="150" width="150px"></div>
+                </div>
+            </div>
+            <div class="front front2">
+                <div class="content">
+                    <h3>
+                        <a [routerLink]="['/list']">Menu</a>
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="front front1">
+                <div class="content">
+                    <div class="icon"><img src="assets/order.png" alt="" aria-hidden="true" ></div>
+                </div>
+            </div>
+            <div class="front front2">
+                <div class="content">
+                    <h3>
+                        <a [routerLink]="['/order']">Order</a>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

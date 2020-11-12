@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.page-content img {
+  max-width: 100%;
+  height: auto !important;
+}
+
+.cover {
+    animation: scale 1.2s linear infinite;
+}
+
+@keyframes scale{
+    50%{
+        transform: scale(1.1);
+    }
+}
+
+@font-face{
+    font-family: 'Poppins',sans-serif;
+}
+

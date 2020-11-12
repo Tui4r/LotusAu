@@ -1,0 +1,17 @@
+h2 {
+    margin: 20px;
+    font-weight: 300;
+  }
+  
+  
+  
+  .center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .right{
+    position: absolute;
+    right: 420px;
+    padding: 10px;
+  }
